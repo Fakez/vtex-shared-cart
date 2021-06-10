@@ -11,4 +11,4 @@ CMS module:
 Checkout module:
 1) Add the file '\checkout\checkout6-custom.js' contents to your 'checkout6-custom.js' file
 2) Add the file '\checkout\checkout6-custom.css' contents to your 'checkout6-custom.css' file
-3) Add the file '\checkout\checkout-footer.html' contentes to your 'checkout-footer' file
+3) Add the file '\checkout\checkout-footer.html' contents to your 'checkout-footer' file
