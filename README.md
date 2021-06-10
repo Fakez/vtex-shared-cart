@@ -1,5 +1,5 @@
 # vtex-shared-cart
-sends built carts to your customers
+send built carts to your customers
 
 #steps
 
