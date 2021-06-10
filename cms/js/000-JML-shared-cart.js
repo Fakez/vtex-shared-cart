@@ -2,10 +2,10 @@ function addFromSharedCartUrl() {
 	urlParams = new URLSearchParams(window.location.search);
 	skuString = urlParams.get('skus');
 	qtdString = urlParams.get('qtds');
-    sellerString = urlParams.get('sellers');
+    	sellerString = urlParams.get('sellers');
 	skus = skuString.split(',');
 	qtds = qtdString.split(',');
-    sellers = sellerString.split(',');
+   	sellers = sellerString.split(',');
 
 	itemsToAdd = [];
 	if (skus.length == qtds.length) {
