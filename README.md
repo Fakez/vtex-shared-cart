@@ -4,7 +4,7 @@ sends built carts to your customers
 #steps
 
 CMS module:
-1) Create a new HTML Template using '\cms\HTML Templates\template.html' as its content. Name it howerer you want
+1) Create a new HTML Template using '\cms\HTML Templates\template.html' as its content. Name it however you want
 2) Upload the file '\cms\js\000-JML-shared-cart.js' to your Javascript files
 2) In CMS, create a folder '/carrinho', associate the template created in step 1 to it
 
