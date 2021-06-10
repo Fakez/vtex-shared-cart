@@ -1,0 +1,91 @@
+/* add the code below to your checkout6-custom.js file */
+
+
+#sharecart-btn, #sharecart-container {
+    display:none;
+}
+
+.body-cart #sharecart-btn, .body-cart #sharecart-container {
+    display:block;
+}
+
+#sharecart-btn {
+    font-size: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    width: fit-content;
+    padding: 7px;
+    background: #007aff;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.5px;
+    position: fixed;
+    z-index: 9999999999;
+    bottom: 50%;
+}
+
+#sharecart-container {
+    position: fixed;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,.4);
+    z-index: 9999999;
+}
+
+#sharecart-container * {
+    margin-bottom: 10px;
+}
+
+#sharecart-container .sharecart-popup {
+    right: 0;
+    left: 0;
+    top: 35%;
+    width: 33%;
+    margin: 0 auto;
+    position: absolute;
+    text-align: center;
+    background: white;
+    padding: 40px;
+}
+
+#sharecart-container p {
+    font-size: 24px;
+}
+
+#sharecart-container textarea {
+    width: 85%;
+    text-align: center;
+    cursor: text;
+}
+
+#sharecart-container span {
+    font-weight: 700;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#sharecart-container button {
+    padding: 10px 0;
+    width: 15%;
+    border: 0;
+    background: #007aff;
+    color: white;
+    font-weight: bold;
+}
+
+@media screen and (max-width:1024px) {
+    #sharecart-container .sharecart-popup {
+        width: 85%;
+        padding: 15px;
+    }
+    
+    #sharecart-container button {
+        width: 25%;
+    }
+
+    #sharecart-btn {
+        bottom: 5%;
+    }
+}
