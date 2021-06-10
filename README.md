@@ -1,7 +1,7 @@
 # vtex-shared-cart
 send built carts to your customers
 
-#steps
+# steps
 
 CMS module:
 1) Create a new HTML Template using '\cms\HTML Templates\template.html' as its content. Name it however you want
